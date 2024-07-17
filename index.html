@@ -1,0 +1,60 @@
+[
+    {
+        "action": "talk",
+        "text": "こにちは、ドリックヴァンヘース様、こちらはミコボイスです。2024年7月12日金曜日に予約した2024年7月12日 16:50のご予約のために、電話しました。\n確定の場合は１を、変更の場合は２を、キャンセルの場合は３を、押してください。Hello!",
+        "language": "ja-JP",
+        "style": 3,
+        "bargeIn": true
+    },
+    {
+        "action": "input",
+        "type": [
+            "dtmf"
+        ],
+        "dtmf": {
+            "maxDigits": 1,
+            "submitOnHash": true,
+            "timeOut": 10
+        },
+        "eventUrl": [
+            "https://webhook.site/e4ad1911-8562-4b97-a40c-06eafa1d8a43"
+        ]
+    }
+]
+
+
+
+{
+   "answer_url": [
+      "https://example.com/answer"
+   ],
+   "answer_method": "POST",
+   "to": [
+      {
+         "type": "phone",
+         "number": "919846397205"
+      }
+   ],
+   "from": {
+      "type": "phone",
+      "number": "12055946169"
+   },
+   "event_url": [
+      "https://example.com/event"
+   ],
+   "event_method": "POST",
+   "advanced_machine_detection": {
+       "behavior": "continue",
+       "mode": "default",
+       "beep_timeout": 45
+   }
+}<!DOCTYPE html>
+<html>
+<head>
+    <title>My Webhook Endpoint</title>
+</head>
+<body>
+    <h1>Hello, this is my webhook endpoint!</h1>
+    <p>This page cannot handle POST requests or dynamic content.</p>
+</body>
+</html>
