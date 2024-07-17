@@ -12,17 +12,3 @@
         "fallbackUrl": ["https://febinvj.github.io/voice-test/ncco4.json"]
     }
 ]
-[
-    {
-        "action": "connect",
-        "from": "12055946169",
-        "endpoint": [
-            {
-                "type": "phone",
-                "number": "919846397205"
-            }
-        ],
-        "eventUrl": ["https://febinvj.github.io/voice-test/ncco4.json"],
-        "fallbackUrl": ["https://febinvj.github.io/voice-test/ncco4.json"]
-    }
-]
