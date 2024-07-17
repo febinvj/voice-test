@@ -1,0 +1,34 @@
+[
+    {
+        "action": "talk",
+        "text": "Please press any button",
+        "eventUrl": ["https://febinvj.github.io/voice-test/ncco2.json"]
+    },
+    {
+        "action": "input",
+        "type": ["dtmf"],
+        "dtmf": {
+            "maxDigits": 1,
+            "submitOnHash": false,
+            "timeOut": 10
+        },
+        "eventUrl": ["https://febinvj.github.io/voice-test/ncco2.json"]
+    }
+]
+[
+    {
+        "action": "talk",
+        "text": "Please press any button",
+        "eventUrl": ["https://febinvj.github.io/voice-test/ncco2.json"]
+    },
+    {
+        "action": "input",
+        "type": ["dtmf"],
+        "dtmf": {
+            "maxDigits": 1,
+            "submitOnHash": false,
+            "timeOut": 10
+        },
+        "eventUrl": ["https://febinvj.github.io/voice-test/ncco2.json"]
+    }
+]

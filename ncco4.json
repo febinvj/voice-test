@@ -1,0 +1,24 @@
+[
+    {
+        "action": "connect",
+        "from": "12055946169",
+        "endpoint": [
+            {
+                "type": "phone",
+                "number": "919895649476"
+            }
+        ]
+    }
+]
+[
+    {
+        "action": "connect",
+        "from": "12055946169",
+        "endpoint": [
+            {
+                "type": "phone",
+                "number": "919895649476"
+            }
+        ]
+    }
+]
